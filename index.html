@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>photographed using feelings</h1>
+    <div class="slider-container">
+      <button class="nav-button prev">&lt;</button>
+      <div class="slider">
+        <img src="forash/1.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/2.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/3.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/4.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/6.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/7.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/8.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/9.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/10.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/11.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/12.jpg" class="slide" onclick="openModal(this.src)" />
+        <img src="forash/13.jpg" class="slide" onclick="openModal(this.src)" />
+      </div>
+
+      <button class="nav-button next">&gt;</button>
+    </div>
+
+
+    <div id="lightbox" class="lightbox" onclick="closeModal()">
+      <img id="lightbox-img" class="lightbox-img" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
